@@ -1,0 +1,50 @@
+<!doctype html>
+<html> 
+    <head>
+        <title>Discussion Portal</title>
+        <link rel="stylesheet" href="/Public/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    </head>
+    <body>
+        <div class="div1">
+            <h1 style="color: white;">Discussion Portal</h1>
+            <div class="left">
+                <div class="ques">
+                <button type="submit" class="btn" id="fbtn">New Question Form</button>
+                   <input type="text" class="inp" id="search" placeholder="Search Questions...">
+                </div>
+                <div id="divq">
+                   <ul id="list">
+                   </ul>
+                </div>
+            </div>
+            <div class="right" id="div2" style="display: block; height: 110%;">
+                <h1 class="el"style="margin-top: 5%;">Welcome to Discussion Portal</h1>
+                <p class="el"><strong>Enter a subject and question to get started</strong></p>
+                <input type="text"class="el" id="sub" placeholder="Subject..."><br><br>
+                <textarea type="text" class="el" id="ques"placeholder="Questions..."></textarea>
+                <button type="submit"class="btn" id="qsub" style="float: right;">Submit</button>
+            </div>
+            <div class="right" id="div3" style="display:none;">
+                <div class="div20" id="div21">
+                    <h1>Questions</h1>
+                    <ul id="dii"></ul>
+                    <h2 id="h22"></h2>
+                    <p id="p2"></p>
+                    <span id="span1"></span>
+                </div>
+                <div style="margin-left: 10%; color: rgb(65, 63, 59);" id="div21">
+                    <h1>Response</h1>
+                    <ul id="resid"></ul>
+                </div>
+                <div class="div22" style="margin-left: 10%;margin-top: 10%;color: rgb(65, 63, 59);" id="div23">
+                    <h1>Add response</h1>
+                    <input type="text" id="name" placeholder="Enter Name.."><br><br>
+                    <textarea type="text" id="nres" placeholder="Enter Comment"></textarea>
+                    <span id="span2"></span2>
+                </div>
+            </div>
+        </div>
+        <script src="/Discuss.js"></script>
+    </body>
+</html>
